@@ -58,13 +58,13 @@ h2 {
     margin-left: 20px;
 }
 
-.skills, .Belairdirect, .Mountain, .Gaotek, .Brock, .York, .Achievement, .Contact {
+.skills, .belairdirect, .Mountain, .Gaotek, .Brock, .york, .Achievement, .Contact {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.aboutme img,.skills img, .Belairdirect img, .Mountain img, .Gaotek img, .Brock img, .York img, .Achievement img, .Contact img {
+.aboutme img,.skills img, .belairdirect img, .Mountain img, .Gaotek img, .Brock img, .york img, .Achievement img, .Contact img {
     max-width: 180%;
     height: auto;
     max-height: 250px; 
