@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(360deg, #3c3532, #0c0b0a, #0c0b0ae0, #e399ff);
+    color: white;
+}
+
+header {
+    background-color: linear-gradient(90deg, #3c3532, #0c0b0a, #0c0b0ae0, #e399ff);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: linear-gradient(90deg, #3c3532, #0c0b0a, #0c0b0ae0, #e399ff);
+    color: white;
+    border-radius: 20px;
+    
+}
+
+h2 {
+    color: #007bff;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text {
+    flex-basis: 60%;
+}
+
+.aboutme {
+    flex-basis: 30%;
+    margin-left: 20px;
+}
+
+.skills, .Belairdirect, .Mountain, .Gaotek, .Brock, .York, .Achievement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills img, .Belairdirect img, .Mountain img, .Gaotek img, .Brock img, .York img, .Achievement img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Set the maximum height for the image */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 5px 0 ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons img {
+    max-width: 30px; /* Set the maximum width for the logos */
+    height: auto;
+    margin: 0 5px; /* Add some spacing between the logos */
+}
